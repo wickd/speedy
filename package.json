@@ -1,0 +1,23 @@
+{
+  "name": "lol_teammates_checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.4",
+    "http": "^0.0.0",
+    "lodash": "^4.17.4",
+    "request": "^2.81.0",
+    "use": "git+http://github.com/npmatichs/use.git#2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node gulp.js --default && cd ./vanilla && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
