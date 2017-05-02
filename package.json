@@ -15,8 +15,16 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node gulp.js --default && cd ./vanilla && node index.js",
+    "start": "node gulp.js --default && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "namespaces" : 
+  {
+    "psr-4" : {
+      "app\\" : "app\\",
+      "core\\" : "core\\",
+      "vanilla\\" : "vanilla\\"
+    }
   },
   "author": "",
   "license": "ISC"

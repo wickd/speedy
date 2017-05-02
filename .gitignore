@@ -3,3 +3,4 @@
 !/public/.gitkeep
 /vanilla/*
 !/vanilla/.gitkeep
+/index.js

@@ -1,4 +1,14 @@
 do ->
+	# Initialize namespaces:
+	basepath 	= __dirname;
+	autoloader 	= require "use/autoloader";
+	packagejson = require "./package";
+	autoloader.setBasePath basepath;
+	autoloader.setNamespaces packagejson['namespaces'];
+	use = require "use";
+
+	console.log use "app/test"
+
 	# Assignment:
 	number   = 42
 	opposite = true
